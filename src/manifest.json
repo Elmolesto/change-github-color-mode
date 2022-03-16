@@ -3,7 +3,7 @@
   "action": {},
   "manifest_version": 3,
   "version": "0.1",
-  "description": "Turns github's color mode at night",
+  "description": "Turns github's color mode to dark at night",
   "permissions": [
     "activeTab",
     "scripting",
