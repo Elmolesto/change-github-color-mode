@@ -1,0 +1,18 @@
+{
+  "name": "Change Github color mode",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Turns github's color mode at night",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://github.com/*"
+  ]
+}
